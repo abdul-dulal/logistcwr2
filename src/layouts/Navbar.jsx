@@ -29,8 +29,8 @@ const Navbar = () => {
       }`}
     >
       <div className="relative xl:bg-[#d1e4ea] bg-secondary py-[25px]">
-        <div className=" xl:before:absolute before:content-['']  before:top-0 before:right-0 before:bg-secondary before:w-[342px] before:h-[100px] before:z-[1]">
-          <div className="relative before:absolute before:content-[' '] before:-top-[25px] before:-left-11 before:bg-secondary before:w-[25%] before:h-[100px] before:z-[1] before:-skew-x-[36deg] xl:after:absolute after:content-[''] after:-top-[25px] after:left-[20.5%] after:bg-[#d1e4ea] after:w-[3%] after:h-[93px] after:z-[1] after:skew-x-[30deg]">
+        <div className=" xl:before:absolute before:content-['']  before:top-0 before:right-0 before:bg-secondary before:w-[342px] before:h-[120px] before:z-[1]">
+          <div className="relative before:absolute before:content-[' '] before:-top-[25px] before:-left-11 before:bg-secondary before:w-[25%] before:h-[120px] before:z-[1] before:-skew-x-[36deg] xl:after:absolute after:content-[''] after:-top-[25px] after:left-[20.5%] after:bg-[#d1e4ea] after:w-[3%] after:h-[93px] after:z-[1] after:skew-x-[30deg]">
             <div className="container ">
               <div className="xl:grid   grid-cols-12 flex justify-between   items-center">
                 <div className="xl:col-span-2 col-span-6 ">
