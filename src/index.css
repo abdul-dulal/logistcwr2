@@ -26,15 +26,6 @@ body {
   }
 }
 
-.container {
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: auto;
-}
-.container-lg {
-  max-width: 1600px;
-}
-
 li .sub-menu {
   transform: rotateX(-90deg);
 }

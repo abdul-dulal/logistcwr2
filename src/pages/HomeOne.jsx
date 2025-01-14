@@ -198,11 +198,11 @@ const HomeOne = () => {
 
       <section className="relative py-[100px] ">
         <div
-          className="grid lg:grid-cols-2 gap-[48px] container  wow animate__fadeInUp"
+          className="grid lg:grid-cols-2 gap-[48px] px-[15px]  wow animate__fadeInUp"
           data-wow-duration="1s"
         >
           <div>
-            <img src={about} alt="About" className=" h-auto max-w-full " />
+            <img src={about} alt="About" className=" h-auto w-full " />
           </div>
           <div className="mt-4 sm:ml-3">
             <h5 className="capitalize relative   left-10 inline-block after:absolute after:-left-9 after:top-1.5 after:w-4 after:h-4 after:bg-primary after:rotate-[45deg] after:transition-all after:duration-700 after:ease-out before:absolute before:content-[''] before:-left-8 before:top-1.5 before:w-4 before:h-4 before:bg-secondary before:rotate-[45deg] before:transition-all before:duration-700 before:ease-out before:z-[1] circle">
@@ -264,7 +264,7 @@ const HomeOne = () => {
 
       {/* Service__Area */}
       <section className="bg-[#f5f4f9] pt-[100px] pb-20">
-        <div className="container">
+        <div className="px-[15px]">
           <div
             className="text-center wow animate__fadeInUp"
             data-wow-duration="1s"
@@ -300,7 +300,7 @@ const HomeOne = () => {
 
       {/* Client__Area */}
       <section className="pt-[100px] pb-20">
-        <div className="container">
+        <div className="px-[15px]">
           <div
             className="text-center wow animate__fadeInUp"
             data-wow-duration=".8s"
@@ -325,7 +325,7 @@ const HomeOne = () => {
       {/* Appionment__Area */}
 
       <div className="relative bg-primary xl:pt-[100px] pt-10 overflow-hidden z-[1]">
-        <div className="container">
+        <div className="px-[15px]">
           <div className="grid grid-cols-12">
             <div className="lg:col-span-9 col-span-12">
               <AppoinmentLeft />
@@ -352,7 +352,7 @@ const HomeOne = () => {
 
       {/* Project__Area */}
       <section className="py-[100px]">
-        <div className="container">
+        <div className="px-[15px]">
           <div
             className="text-center wow animate__fadeInUp"
             data-wow-duration=".6s"
@@ -389,7 +389,7 @@ const HomeOne = () => {
 
       {/* Price__Area */}
       <section className="pb-[100px]">
-        <div className="container">
+        <div className="px-[15px]">
           <div
             className="text-center wow animate__fadeInUp"
             data-wow-duration=".6s"
@@ -420,7 +420,7 @@ const HomeOne = () => {
 
       {/* Blog__Area */}
       <section className="relative pb-[100px]">
-        <div className="container">
+        <div className="px-[15px]">
           <div
             className="text-center wow animate__fadeInUp"
             data-wow-duration=".6s"
@@ -574,7 +574,7 @@ const HomeOne = () => {
       {/* Brand_Area */}
 
       <section className="pb-[120px] border-t border-solid border-[#ebebeb]">
-        <div className="container">
+        <div className="px-[15px]">
           <div
             className=" text-center wow animate__fadeInUp"
             data-wow-duration=".6s"

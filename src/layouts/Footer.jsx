@@ -6,7 +6,7 @@ import footerLogo from "/src/assets/HomeOne/logo.png";
 const Footer = () => {
   return (
     <footer className="pt-[120px] pb-8 overflow-hidden bg-[url('/src/assets/HomeOne/footer-bg.jpg')] bg-no-repeat bg-cover bg-center">
-      <div className="container">
+      <div className="px-[15px]">
         <div className="border-b border-dashed border-primary pb-[121px]">
           <div
             className="grid lg:grid-cols-4 md:grid-cols-2 wow animate__fadeInUp"

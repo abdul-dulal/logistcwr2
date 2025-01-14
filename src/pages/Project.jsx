@@ -11,7 +11,7 @@ const Project = () => {
 
       {/* ST__Project__Area */}
       <section className="py-[100px]">
-        <div className="container">
+        <div className="px-[15px]">
           <div
             className="text-center wow animate__fadeInUp"
             data-wow-duration=".6s"

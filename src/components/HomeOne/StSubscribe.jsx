@@ -1,7 +1,7 @@
 const StSubscribe = ({ img }) => {
   return (
     <section className="relative  pb-[100px]">
-      <div className="container">
+      <div className="px-[15px]">
         <div
           className="bg-white grid grid-cols-12 -mt-[267px] ml-[35px] items-center"
           style={{

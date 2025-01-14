@@ -30,7 +30,7 @@ const BlogDetails = () => {
     <div>
       <BreadCumb title="Blog Details" currentPage="Blog Details" />
       <section className="pt-[120px] pb-[100px]">
-        <div className="container">
+        <div className="px-[15px]">
           <div className="grid grid-cols-12 lg:gap-14">
             <div className="lg:col-span-8 col-span-12">
               <img src={hero} className="w-full" alt="Blog Details" />

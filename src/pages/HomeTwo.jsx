@@ -37,11 +37,12 @@ import AboutUs from "../components/HomeTwo/AboutUs";
 import ServiceTwo from "../components/HomeTwo/ServiceTwo";
 import Team from "../components/HomeTwo/Team";
 import CustomerSupport from "../components/HomeTwo/CustomerSupport";
-import Accrodian from "../components/HomeTwo/Accrodian";
+
 import Testimonial from "../components/HomeTwo/Testimonial";
 import BlogContent from "../components/HomeTwo/BlogContent";
 import Subscribe from "../components/HomeThree/Subscribe";
 import AppionmentTwo from "../components/HomeTwo/AppionmentTwo";
+import AccrodianTwo from "../components/HomeTwo/AccrodianTwo";
 
 const HomeTwo = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -116,7 +117,7 @@ const HomeTwo = () => {
 
       {/* Service__Area */}
       <section className="relative py-[100px] bg-[#f5f4f9]">
-        <div className="container">
+        <div className="px-[15px]">
           <div
             className="text-center wow animate__fadeInUp"
             data-wow-duration="1s"
@@ -152,7 +153,7 @@ const HomeTwo = () => {
 
       {/* Team__Area */}
       <section className="relative py-[100px]">
-        <div className="container">
+        <div className="px-[15px]">
           <div
             className="mb-[50px] text-center wow animate__fadeInUp"
             data-wow-duration="1s"
@@ -180,7 +181,7 @@ const HomeTwo = () => {
 
       {/* FAQ__Area */}
       <section className="pt-[100px]">
-        <div className="container">
+        <div className="px-[15px]">
           <div className="grid lg:grid-cols-2 gap-8">
             <div className="wow animate__fadeInUp" data-wow-duration=".8s">
               <h5 className="relative ml-9 text-secondary capitalize  mb-5 inline-block after:absolute after:-left-9 after:top-1.5 after:w-4 after:h-4 after:bg-primary after:rotate-[45deg] after:transition-all after:duration-700 after:ease-out before:absolute before:content-[''] before:-left-8 before:top-1.5 before:w-4 before:h-4 before:bg-secondary before:rotate-[45deg] before:transition-all before:duration-700 before:ease-out before:z-[1] circle">
@@ -189,7 +190,7 @@ const HomeTwo = () => {
               <h2 className="mb-5 text-secondary text-left">
                 The Fastest And Reliable Courier Solutions
               </h2>
-              <Accrodian />
+              <AccrodianTwo />
             </div>
             <div className="wow animate__fadeInUp" data-wow-duration=".8s">
               <img src={faq} alt="FAQ" />
@@ -200,7 +201,7 @@ const HomeTwo = () => {
 
       {/* Booking__Area */}
       <section className="bg-[#f5f4f9] pt-[100px] mt-[100px]">
-        <div className="container">
+        <div className="px-[15px]">
           <div className="grid grid-cols-12">
             <div className="lg:col-span-8 col-span-12">
               <div className=" xl:px-[132px] sm:px-10 px-0 pb-[47px] ">
@@ -247,7 +248,7 @@ const HomeTwo = () => {
       {/* Client__Area */}
 
       <section className="pt-[100px] pb-20 bg-[#1d1d1d]">
-        <div className="container">
+        <div className="px-[15px]">
           <div
             className="text-center wow animate__fadeInUp"
             data-wow-duration=".8s"
@@ -282,7 +283,7 @@ const HomeTwo = () => {
           <span className="relative inline-block after:absolute after:left-5 after:-top-5 after:w-4 after:h-4 after:bg-primary after:rotate-[45deg] after:transition-all after:duration-700 after:ease-out before:absolute before:content-[''] before:left-5 before:-top-4 before:w-4 before:h-4 before:bg-secondary before:rotate-[45deg] before:transition-all before:duration-700 before:ease-out before:z-[1] circle"></span>
           <h2 className="mb-11">The latest News & Best Blog</h2>
         </div>
-        <div className="container">
+        <div className="px-[15px]">
           <div
             className="grid lg:grid-cols-3 md:grid-cols-2 gap-6 wow animate__fadeInUp"
             data-wow-duration=".8s"

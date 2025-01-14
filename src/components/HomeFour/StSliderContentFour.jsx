@@ -7,7 +7,7 @@ import banner from "/src/assets/HomeFour/air.png";
 const StSliderContentFour = () => {
   return (
     <div className=" bg-[url('/src/assets/HomeFour/home4.jpg')] bg-cover bg-no-repeat bg-center relative h-[850px] overflow-hidden flex items-center">
-      <div className="container">
+      <div className="px-[15px]">
         <div className="grid lg:grid-cols-2 ">
           <div className="">
             <h5 className="relative ml-9  text-xl text-black font-normal capitalize  mb-5 inline-block after:absolute after:-left-9 after:top-1.5 after:w-4 after:h-4 after:bg-primary after:rotate-[45deg] after:transition-all after:duration-700 after:ease-out  circle">

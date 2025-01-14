@@ -18,12 +18,12 @@ const AboutUs = () => {
   };
   return (
     <section className="pt-[100px] pb-[100px]">
-      <div className="container">
+      <div className="px-[15px]">
         <div className="grid lg:grid-cols-2 gap-10 ">
           <div>
             <img
               src={about}
-              className="wow animate__fadeInUp"
+              className="w-full wow animate__fadeInUp"
               data-wow-duration=".8s"
               alt="About"
             />

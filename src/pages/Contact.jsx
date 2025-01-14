@@ -16,7 +16,7 @@ const Contact = () => {
           style={{ filter: "drop-shadow(0px 1px 25.5px rgba(0, 0, 0, 0.15))" }}
           className="bg-white py-[60px] sm:px-[25px]"
         >
-          <div className="container">
+          <div className="px-[15px]">
             <div className="grid lg:grid-cols-12 lg:gap-9 items-center">
               <div className="lg:col-span-5 col-span-12">
                 <div className="pt-[78px] pr-[36px] pb-[46px] pl-[36px] bg-secondary">

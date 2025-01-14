@@ -51,7 +51,7 @@ const HomeThree = () => {
     <div>
       {/* Hero__Area */}
       <section className="py-[217px] bg-[url('/src/assets/homeThree/home3-bg.jpg')] bg-no-repeat">
-        <div className="container">
+        <div className="px-[15px]">
           <div className="inline-block border-2 border-solid border-white py-[9px] sm:px-[55px] px-5   rounded-[25px]">
             <h4 className="sm:text-lg text-base font-medium text-white">
               Logistcwr Transportation Inc
@@ -99,7 +99,7 @@ const HomeThree = () => {
 
       {/* About__Area */}
       <section className="relative py-[100px]">
-        <div className="container">
+        <div className="px-[15px]">
           <div className="grid lg:grid-cols-2 gap-[60px] items-center">
             <div>
               <img src={aboutAir} className="w-full" alt="About" />
@@ -134,7 +134,7 @@ const HomeThree = () => {
       {/* Service__Area */}
 
       <section className="relative pt-[95px] pb-[100px]">
-        <div className="container">
+        <div className="px-[15px]">
           <div className="grid lg:grid-cols-2">
             <div>
               <h6 className="sm:text-xl text-[17px] capitalize font-bold text-primary relative inline-block ml-[120px] before:absolute before:content-[''] before:top-[11px] before:-left-[119px] before:bg-primary before:w-[105px]  before:h-1">
@@ -185,7 +185,7 @@ const HomeThree = () => {
       {/* Project__Area */}
 
       <section className="pt-[70px] pb-[100px]">
-        <div className="container">
+        <div className="px-[15px]">
           <div className="grid lg:grid-cols-3 gap-6 items-center">
             <div>
               <div className="">
@@ -312,7 +312,7 @@ const HomeThree = () => {
       {/* Trusted__Area */}
 
       <section className="py-[87px]">
-        <div className="container">
+        <div className="px-[15px]">
           <div className=" text-center">
             <h6 className="sm:text-xl text-[17px] capitalize font-bold text-primary relative inline-block ml-[120px] before:absolute before:content-[''] before:top-[11px] before:-left-[119px] before:bg-primary before:w-[105px]  before:h-1">
               Trusted Transport Service
@@ -343,7 +343,7 @@ const HomeThree = () => {
       {/* Work__Process__Area */}
 
       <div className="relative pt-[100px] pb-[90px] bg-[url('/src/assets/homeThree/work-bg.png')]">
-        <div className="container">
+        <div className="px-[15px]">
           <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 md:gap-6">
             <WorkProcess img={process} serial="01" title="Select Services" />
             <WorkProcess
@@ -360,7 +360,7 @@ const HomeThree = () => {
       {/* Testimonial__Area */}
 
       <section className="py-[100px]">
-        <div className="container">
+        <div className="px-[15px]">
           <div>
             <h6 className="sm:text-xl text-[17px] capitalize font-bold text-primary relative inline-block ml-[120px] before:absolute before:content-[''] before:top-[11px] before:-left-[119px] before:bg-primary before:w-[105px]  before:h-1">
               Testimonial
@@ -376,7 +376,7 @@ const HomeThree = () => {
       {/* Team__Area */}
 
       <section className="bg-[#ebebeb] py-[100px]">
-        <div className="container">
+        <div className="px-[15px]">
           <div className="block text-center">
             <h6>Our Most Team</h6>
             <h3 className="mb-11">Meet The Excecutive Panel</h3>
@@ -403,7 +403,7 @@ const HomeThree = () => {
           <h6 className="capitalize">Our News from Blog</h6>
           <h3 className="mb-11">The latest News & Best Blog</h3>
         </div>
-        <div className="container">
+        <div className="px-[15px]">
           <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-6">
             <BlogContent
               blog={blog1}

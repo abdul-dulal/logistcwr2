@@ -1,6 +1,6 @@
 const STsliderContentOne = ({ icon, title }) => {
   return (
-    <div className="container">
+    <div className="px-[15px]">
       <div className="bg-white px-[33px] pt-[42px] pb-[33px]">
         <div className="relative">
           <img className="relative z-[2]" src={icon} alt="" />

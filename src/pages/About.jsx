@@ -28,7 +28,7 @@ const About = () => {
 
       {/* Service */}
       <section className="relative py-[100px] bg-[#f5f4f9]">
-        <div className="container">
+        <div className="px-[15px]">
           <div
             className="text-center wow animate__fadeInUp"
             data-wow-duration="1s"
@@ -64,7 +64,7 @@ const About = () => {
 
       {/* Price */}
       <section className="pb-[100px]">
-        <div className="container">
+        <div className="px-[15px]">
           <div
             className="text-center wow animate__fadeInUp"
             data-wow-duration=".6s"
@@ -91,7 +91,7 @@ const About = () => {
 
       {/* Team */}
       <section className="relative py-[100px]">
-        <div className="container">
+        <div className="px-[15px]">
           <div
             className="mb-[50px] text-center wow animate__fadeInUp"
             data-wow-duration="1s"

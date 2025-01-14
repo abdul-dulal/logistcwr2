@@ -14,7 +14,7 @@ const BlogStandarad = () => {
     <div>
       <BreadCumb title="Blog Standarad" currentPage="Blog Standarad" />
       <div className="py-[100px]">
-        <div className="container">
+        <div className="px-[15px]">
           <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-6">
             <BlogContent
               blog={blog1}

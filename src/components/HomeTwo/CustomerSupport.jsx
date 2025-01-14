@@ -6,7 +6,7 @@ import VideoModal from "./VideoModal";
 const CustomerSupport = () => {
   return (
     <section className="relative py-[140px] bg-[url('/src/assets/HomeTwo/support-bg.jpg')] bg-no-repeat bg-cover bg-center ">
-      <div className="container">
+      <div className="px-[15px]">
         <div className="grid grid-cols-12">
           <div className="lg:col-span-9 col-span-12">
             <div className="wow animate__fadeInUp" data-wow-duration=".6s">

@@ -21,7 +21,7 @@ const Service = () => {
       <BreadCumb title="Service" currentPage="Service" />
       {/* Service */}
       <section className="bg-[#f5f4f9] pt-[100px] pb-20">
-        <div className="container">
+        <div className="px-[15px]">
           <div
             className="text-center wow animate__fadeInUp"
             data-wow-duration="1s"
@@ -58,7 +58,7 @@ const Service = () => {
       {/* Appionment__Area */}
 
       <div className="relative bg-primary xl:pt-[100px] pt-10 overflow-hidden z-[1]">
-        <div className="container">
+        <div className="px-[15px]">
           <div className="grid grid-cols-12">
             <div className="lg:col-span-9 col-span-12">
               <AppoinmentLeft />
@@ -85,7 +85,7 @@ const Service = () => {
 
       {/* Client__Area */}
       <section className="pt-[100px] pb-20">
-        <div className="container">
+        <div className="px-[15px]">
           <div
             className="text-center wow animate__fadeInUp"
             data-wow-duration=".8s"

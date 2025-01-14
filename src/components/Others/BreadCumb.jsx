@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const BreadCumb = ({ title, currentPage }) => {
   return (
     <div className="bg-[url('/src/assets/About/b-bg.jpg')] pt-[155px] pb-6">
-      <div className="container">
+      <div className="px-[15px]">
         <div className="wow animate__fadeInUp" data-wow-duration=".8s">
           <span className="lg:text-[28px] text-lg text-white text-center block">
             Business Models you can Consider

@@ -10,7 +10,7 @@ const TeamMember = () => {
       <BreadCumb title="Team" currentPage="Team" />
       {/* ST__Team__Area */}
       <section className="relative py-[100px]">
-        <div className="container">
+        <div className="px-[15px]">
           <div
             className="mb-[50px] text-center wow animate__fadeInUp"
             data-wow-duration="1s"

@@ -164,7 +164,7 @@ const HomeFour = () => {
 
       <section className="relative py-[100px] ">
         <div
-          className="grid lg:grid-cols-2 gap-[48px] container  wow animate__fadeInUp"
+          className="grid lg:grid-cols-2 gap-[48px] px-[15px]  wow animate__fadeInUp"
           data-wow-duration="1s"
         >
           <div>
@@ -215,7 +215,7 @@ const HomeFour = () => {
 
       {/* Service__Area */}
       <section className="bg-[#f5f4f9] pt-[100px] pb-20">
-        <div className="container">
+        <div className="px-[15px]">
           <div
             className="text-center wow animate__fadeInUp"
             data-wow-duration="1s"
@@ -240,7 +240,7 @@ const HomeFour = () => {
       {/* Client__Area */}
 
       <section className="pt-[100px] pb-20">
-        <div className="container">
+        <div className="px-[15px]">
           <div
             className="text-center wow animate__fadeInUp"
             data-wow-duration=".8s"
@@ -265,7 +265,7 @@ const HomeFour = () => {
       {/* Appionment__Area */}
 
       <div className="relative bg-primary xl:pt-[100px] pt-10 overflow-hidden z-[1]">
-        <div className="container">
+        <div className="px-[15px]">
           <div className="grid grid-cols-12">
             <div className="lg:col-span-9 col-span-12">
               <AppoinmentLeft />
@@ -292,7 +292,7 @@ const HomeFour = () => {
 
       {/* Project__Area */}
       <section className="py-[100px]">
-        <div className="container">
+        <div className="px-[15px]">
           <div
             className="text-center wow animate__fadeInUp"
             data-wow-duration=".6s"
@@ -329,7 +329,7 @@ const HomeFour = () => {
 
       {/* Price__Area */}
       <section className="pb-[100px]">
-        <div className="container">
+        <div className="px-[15px]">
           <div
             className="text-center wow animate__fadeInUp"
             data-wow-duration=".6s"
@@ -360,7 +360,7 @@ const HomeFour = () => {
 
       {/* Blog__Area */}
       <section className="relative pb-[100px]">
-        <div className="container">
+        <div className="px-[15px]">
           <div
             className="text-center wow animate__fadeInUp"
             data-wow-duration=".6s"
@@ -527,7 +527,7 @@ const HomeFour = () => {
       {/* Brand_Area */}
 
       <section className="pb-[120px] border-t border-solid border-[#ebebeb]">
-        <div className="container">
+        <div className="px-[15px]">
           <div
             className=" text-center wow animate__fadeInUp"
             data-wow-duration=".6s"

@@ -28,7 +28,7 @@ const HeaderTwo = () => {
       <div className="relative bg-[#ebebeb] py-[37px]">
         <div className=" before:absolute before:content-['']  before:top-0 before:right-0 before:bg-secondary before:w-[342px] before:h-[125px] before:z-[1]">
           <div className="relative before:absolute before:content-[' '] before:-top-[37px] before:-left-8 before:bg-secondary before:w-[22%] before:h-[124px] before:z-[1] before:skew-x-[25deg] after:absolute after:content-[''] after:-top-[21px] after:left-[18.8%] after:bg-[#ebebeb] after:w-[3%] after:h-[95px] after:z-[1] after:skew-x-[25deg]">
-            <div className="container ">
+            <div className="px-[15px] ">
               <div className="grid grid-cols-12 items-center">
                 <div className="col-span-2">
                   <div className="relative z-[99] ">

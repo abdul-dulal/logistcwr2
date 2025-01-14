@@ -3,7 +3,7 @@ const Subscribe = () => {
   return (
     <section className="relative">
       <div className="bg-[#f3f3f9]">
-        <div className="container">
+        <div className="px-[15px]">
           <div className="grid lg:grid-cols-2 lg:gap-0 gap-10 items-center">
             <div
               className=" sm:px-4 lg:pt-0 pt-8 wow animate__fadeInUp"

@@ -15,7 +15,7 @@ import {
 const TopHeader = () => {
   return (
     <div className="py-[22px] bg-primary xl:block hidden">
-      <div className="container flex justify-between ">
+      <div className="px-[15px] flex justify-between ">
         <div className="">
           <ul className=" flex items-center gap-5">
             <li className="">

@@ -7,7 +7,7 @@ const ProjectDetails = () => {
     <div>
       <BreadCumb title="Project Details" currentPage="Project Details" />
       <section className="py-[100px]">
-        <div className="container">
+        <div className="px-[15px]">
           <img src={ps2} className="w-full" alt="Project Details" />
           <h3 className="text-[30px] font-semibold mt-[57px] ">
             Project Details

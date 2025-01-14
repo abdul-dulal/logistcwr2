@@ -21,7 +21,7 @@ const TeamDetails = () => {
     <div>
       <BreadCumb title="Team Details" currentPage="Team Details" />
       <div className="pt-[100px]">
-        <div className="container">
+        <div className="px-[15px]">
           <div className="grid lg:grid-cols-2 gap-12">
             <div>
               <img src={teamMember} className="w-full" alt="Team Details" />
@@ -122,7 +122,7 @@ const TeamDetails = () => {
       </div>
       {/* ST__Team__Area */}
       <section className="relative py-[100px]">
-        <div className="container">
+        <div className="px-[15px]">
           <div
             className="mb-[50px] text-center wow animate__fadeInUp"
             data-wow-duration="1s"

@@ -29,7 +29,7 @@ const FeaturedSliderContentTwo = ({
         }}
       ></div>
       <div className="absolute md:top-[27%] top-[16%] left-0 w-full h-full">
-        <div className="container mx-auto  relative">
+        <div className="px-[15px] mx-auto  relative">
           <div className="">
             <h5
               className={`relative sm:text-xl text-base sm:mb-0 mb-3 text-white font-normal left-10 inline-block after:absolute after:-left-9 after:top-1.5 after:w-4 after:h-4 after:bg-white after:rotate-[45deg] after:transition-all after:duration-700 after:ease-out before:absolute before:content-[''] before:-left-8 before:top-1.5 before:w-4 before:h-4 before:bg-primary before:rotate-[45deg] before:transition-all before:duration-700 before:ease-out before:z-[1] circle ${

@@ -14,7 +14,7 @@ const ServiceDetails = () => {
       {/* ST_Service__Details */}
 
       <section className="py-[100px]">
-        <div className="container">
+        <div className="px-[15px]">
           <div className="grid grid-cols-12 lg:gap-9">
             <div className="lg:col-span-4 col-span-12">
               <div className="lg:pl-[30px]">
