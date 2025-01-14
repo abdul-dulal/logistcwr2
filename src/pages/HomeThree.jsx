@@ -45,6 +45,7 @@ import BlogContent from "../components/HomeTwo/BlogContent";
 import Subscribe from "../components/HomeThree/Subscribe";
 import About from "../components/HomeThree/About";
 import ServiceThree from "../components/HomeThree/ServiceThree";
+import aboutAir from "/src/assets/homeThree/3.png";
 const HomeThree = () => {
   return (
     <div>
@@ -101,11 +102,7 @@ const HomeThree = () => {
         <div className="container">
           <div className="grid lg:grid-cols-2 gap-[60px] items-center">
             <div>
-              <img
-                src="/src/assets/homeThree/3.png"
-                className="w-full"
-                alt="About"
-              />
+              <img src={aboutAir} className="w-full" alt="About" />
             </div>
             <div>
               <h6 className="">about companay</h6>

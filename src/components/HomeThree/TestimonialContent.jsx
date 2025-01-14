@@ -1,3 +1,4 @@
+import quote from "/src/assets/homeThree/quote.png";
 const TestimonialContent = ({ subTitle, name, designation, img }) => {
   return (
     <div className="relative mt-20">
@@ -15,7 +16,7 @@ const TestimonialContent = ({ subTitle, name, designation, img }) => {
         </div>
       </div>
       <div className="absolute -top-6 right-8">
-        <img src="/src/assets/homeThree/quote.png" alt="Testimonial" />
+        <img src={quote} alt="Testimonial" />
       </div>
     </div>
   );

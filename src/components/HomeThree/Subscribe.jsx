@@ -6,7 +6,7 @@ const Subscribe = () => {
         <div className="container">
           <div className="grid lg:grid-cols-2 lg:gap-0 gap-10 items-center">
             <div
-              className="lg:px-[75px] sm:px-4 lg:pt-0 pt-8 wow animate__fadeInUp"
+              className=" sm:px-4 lg:pt-0 pt-8 wow animate__fadeInUp"
               data-wow-duration=".7s"
             >
               <h2>Join Our Mailing List</h2>
