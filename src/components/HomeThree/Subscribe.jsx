@@ -1,4 +1,3 @@
-import subscribe from "/src/assets/HomeTwo/join.png";
 const Subscribe = () => {
   return (
     <section className="relative">
@@ -6,7 +5,7 @@ const Subscribe = () => {
         <div className="container">
           <div className="grid lg:grid-cols-2 lg:gap-0 gap-10 items-center">
             <div
-              className=" lg:pt-0 pt-8 wow animate__fadeInUp"
+              className="lg:px-[75px] sm:px-4 lg:pt-0 pt-8 wow animate__fadeInUp"
               data-wow-duration=".7s"
             >
               <h2>Join Our Mailing List</h2>
@@ -32,7 +31,7 @@ const Subscribe = () => {
             <div>
               <img
                 src="/src/assets/HomeTwo/join.png"
-                className="w-full xl:ml-[15px]"
+                className="relative w-full ml-[15px]"
                 alt="Call To Action"
               />
             </div>

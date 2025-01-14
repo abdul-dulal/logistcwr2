@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import { Link } from "react-router-dom";
-
+import appionmentImg from "/src/assets/HomeOne/appionment.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faArrowRight,
@@ -278,7 +278,7 @@ const HomeFour = () => {
             <div className="">
               <div className="absolute top-[33px]  -z-[1] right-0 w-[50%] h-full overflow-hidden">
                 <img
-                  src="/src/assets/HomeOne/appionment.jpg"
+                  src={appionmentImg}
                   className="bg-cover bg-no-repeat  h-full"
                   alt="Appionment"
                 />
