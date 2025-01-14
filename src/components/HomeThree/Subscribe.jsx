@@ -1,3 +1,4 @@
+import subscribe from "/src/assets/HomeTwo/join.png";
 const Subscribe = () => {
   return (
     <section className="relative">
@@ -30,7 +31,7 @@ const Subscribe = () => {
             </div>
             <div>
               <img
-                src="/src/assets/HomeTwo/join.png"
+                src={subscribe}
                 className="w-full xl:ml-[15px]"
                 alt="Call To Action"
               />
