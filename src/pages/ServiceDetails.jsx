@@ -2,7 +2,10 @@ import { Link } from "react-router-dom";
 import BreadCumb from "../components/Others/BreadCumb";
 import { faAnglesRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
+import telephone from "/src/assets/service-details/telephone.png";
+import pdf from "/src/assets/service-details/pdf.png";
+import sd1 from "/src/assets/service-details/sd1.jpg";
+import sd2 from "/src/assets/service-details/sd2.jpg";
 const ServiceDetails = () => {
   return (
     <div>
@@ -77,7 +80,7 @@ const ServiceDetails = () => {
                       Contact withus for <br /> Any advice
                     </h3>
                     <img
-                      src="/src/assets/service-details/telephone.png"
+                      src={telephone}
                       className="block m-auto"
                       alt="Telephone"
                     />
@@ -94,11 +97,7 @@ const ServiceDetails = () => {
                     to="/"
                     className="flex items-center justify-center bg-primary py-[22px] px-[30px] text-white md:text-2xl text-lg font-semibold mt-[30px] duration-500 hover:bg-secondary"
                   >
-                    <img
-                      src="/src/assets/service-details/pdf.png"
-                      className="mx-[10px]"
-                      alt="PDF"
-                    />
+                    <img src={pdf} className="mx-[10px]" alt="PDF" />
                     Download PDF File
                   </Link>
                 </div>
@@ -106,11 +105,7 @@ const ServiceDetails = () => {
             </div>
             <div className="lg:col-span-8 col-span-12 sm:mt-0 mt-8">
               <div>
-                <img
-                  src="/src/assets/service-details/sd1.jpg"
-                  className="w-full"
-                  alt="Service Details"
-                />
+                <img src={sd1} className="w-full" alt="Service Details" />
               </div>
               <h2 className="text-secondary sm:text-[40px] text-xl  font-semibold mt-11">
                 Service Overview
@@ -135,11 +130,7 @@ const ServiceDetails = () => {
               </p>
               <div className="grid lg:grid-cols-2 items-center mt-9">
                 <div>
-                  <img
-                    src="/src/assets/service-details/sd2.jpg"
-                    className="w-full"
-                    alt="Service Thumb"
-                  />
+                  <img src={sd2} className="w-full" alt="Service Thumb" />
                 </div>
                 <div className=" pl-4 ">
                   <h5 className="text-secondary capitalize border-b border-solid border-[#d5d5d5] pb-7 mt-3">

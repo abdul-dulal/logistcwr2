@@ -1,17 +1,14 @@
 import AccrodianTwo from "../components/HomeTwo/AccrodianTwo";
 import BreadCumb from "../components/Others/BreadCumb";
-
+import ps1 from "/src/assets/service-details/ps1.jpg";
+import ps2 from "/src/assets/service-details/ps2.jpg";
 const ProjectDetails = () => {
   return (
     <div>
       <BreadCumb title="Project Details" currentPage="Project Details" />
       <section className="py-[100px]">
         <div className="container">
-          <img
-            src="/src/assets/service-details/ps2.jpg"
-            className="w-full"
-            alt="Project Details"
-          />
+          <img src={ps2} className="w-full" alt="Project Details" />
           <h3 className="text-[30px] font-semibold mt-[57px] ">
             Project Details
           </h3>
@@ -33,11 +30,7 @@ const ProjectDetails = () => {
           </p>
           <div className="grid lg:grid-cols-2 my-14 gap-12">
             <div>
-              <img
-                src="/src/assets/service-details/ps1.jpg"
-                className="w-full"
-                alt="About"
-              />
+              <img src={ps1} className="w-full" alt="About" />
             </div>
             <div>
               <AccrodianTwo />

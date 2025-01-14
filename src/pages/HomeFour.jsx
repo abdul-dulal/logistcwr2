@@ -52,7 +52,7 @@ import VideoModal from "../components/HomeTwo/VideoModal";
 import shape from "/src/assets/HomeOne/air-plane.png";
 import AppoinmentLeft from "../components/HomeOne/AppoinmentLeft";
 import ServicesFour from "../components/HomeFour/ServicesFour";
-
+import about from "/src/assets/HomeFour/project.png";
 const HomeFour = () => {
   const swiperRef = useRef(null);
   return (
@@ -168,11 +168,7 @@ const HomeFour = () => {
           data-wow-duration="1s"
         >
           <div>
-            <img
-              src="/src/assets/HomeFour/project.png"
-              alt="About"
-              className=" h-auto max-w-full "
-            />
+            <img src={about} alt="About" className=" h-auto max-w-full " />
           </div>
           <div className="mt-4 sm:ml-3">
             <h5 className="capitalize relative   left-10 inline-block after:absolute after:-left-9 after:top-1.5 after:w-4 after:h-4 after:bg-primary after:rotate-[45deg] after:transition-all after:duration-700 after:ease-out before:absolute before:content-[''] before:-left-8 before:top-1.5 before:w-4 before:h-4 before:bg-secondary before:rotate-[45deg] before:transition-all before:duration-700 before:ease-out before:z-[1] circle">

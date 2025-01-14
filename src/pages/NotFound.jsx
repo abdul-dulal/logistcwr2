@@ -1,5 +1,5 @@
 import BreadCumb from "../components/Others/BreadCumb";
-
+import notfound from "/src/assets/not-found.png";
 const NotFound = () => {
   return (
     <div>
@@ -8,7 +8,7 @@ const NotFound = () => {
         <div className="grid lg:grid-cols-12">
           <div className="col-span-2"></div>
           <div className="lg:col-span-8 col-span-12">
-            <img src="/src/assets/not-found.png" alt="Not Found" />
+            <img src={notfound} alt="Not Found" />
           </div>
           <div className="col-span-2"></div>
         </div>

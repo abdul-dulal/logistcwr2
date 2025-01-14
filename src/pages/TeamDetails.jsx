@@ -15,6 +15,7 @@ import tm2 from "/src/assets/team/dulal.png";
 import tm3 from "/src/assets/team/monio.png";
 import tm4 from "/src/assets/team/saad.png";
 
+import teamMember from "/src/assets/team/team-detail.jpg";
 const TeamDetails = () => {
   return (
     <div>
@@ -23,11 +24,7 @@ const TeamDetails = () => {
         <div className="container">
           <div className="grid lg:grid-cols-2 gap-12">
             <div>
-              <img
-                src="/src/assets/team/team-detail.jpg"
-                className="w-full"
-                alt="Team Details"
-              />
+              <img src={teamMember} className="w-full" alt="Team Details" />
             </div>
             <div>
               <div className="pt-12">

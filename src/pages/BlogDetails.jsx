@@ -2,6 +2,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import BreadCumb from "../components/Others/BreadCumb";
 import hero from "/src/assets/blog/blog-details.jpg";
 import hero2 from "/src/assets/blog/blog-detail.jpg";
+import reply2 from "/src/assets/blog/reply2.png";
+import reply from "/src/assets/blog/reply1.png";
 import {
   faAnglesLeft,
   faAnglesRight,
@@ -179,11 +181,7 @@ const BlogDetails = () => {
                 </h3>
                 <div className="flex flex-wrap gap-8 mt-[63px]  border-b border-solid border-[#e6e6e6] pb-10">
                   <div>
-                    <img
-                      src="/src/assets/blog/reply1.png"
-                      className="rounded-full"
-                      alt="Replay"
-                    />
+                    <img src={reply} className="rounded-full" alt="Replay" />
                   </div>
                   <div className=" flex  justify-between">
                     <div>
@@ -210,11 +208,7 @@ const BlogDetails = () => {
                 </div>
                 <div className="flex flex-wrap gap-8 mt-[63px]  border-b border-solid border-[#e6e6e6] pb-10 sm:ml-[70px]">
                   <div>
-                    <img
-                      src="/src/assets/blog/reply2.png"
-                      className="rounded-full"
-                      alt="Replay"
-                    />
+                    <img src={reply2} className="rounded-full" alt="Replay" />
                   </div>
                   <div className=" flex  justify-between">
                     <div>

@@ -14,6 +14,7 @@ import t3 from "/src/assets/HomeOne/1-3.png";
 import ServiceOne from "../components/HomeOne/ServiceOne";
 import VideoModal from "../components/HomeTwo/VideoModal";
 import AppoinmentLeft from "../components/HomeOne/AppoinmentLeft";
+import appionment from "/src/assets/HomeOne/appionment.jpg";
 const Service = () => {
   return (
     <div>
@@ -66,7 +67,7 @@ const Service = () => {
             <div className="">
               <div className="absolute top-[33px]  -z-[1] right-0 w-[50%] h-full overflow-hidden">
                 <img
-                  src="/src/assets/HomeOne/appionment.jpg"
+                  src={appionment}
                   className="bg-cover bg-no-repeat  h-full"
                   alt="Appionment"
                 />

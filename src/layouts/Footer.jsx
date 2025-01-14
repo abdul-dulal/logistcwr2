@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import FooterSocial from "../components/Footer/FooterSocial";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAnglesRight } from "@fortawesome/free-solid-svg-icons";
-
+import footerLogo from "/src/assets/HomeOne/logo.png";
 const Footer = () => {
   return (
     <footer className="pt-[120px] pb-8 overflow-hidden bg-[url('/src/assets/HomeOne/footer-bg.jpg')] bg-no-repeat bg-cover bg-center">
@@ -14,7 +14,7 @@ const Footer = () => {
           >
             <div>
               <Link to="/">
-                <img src="/src/assets/HomeOne/logo.png" alt="Logo" />
+                <img src={footerLogo} alt="Logo" />
               </Link>
               <p className="text-white w-[80%] mt-6">
                 Feugiat a ligula rutrum luctus primis ultrice nteger congue

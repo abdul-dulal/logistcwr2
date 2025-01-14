@@ -2,7 +2,8 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import { Link } from "react-router-dom";
-
+import circle from "/src/assets/HomeFour/circle.png";
+import banner from "/src/assets/HomeFour/air.png";
 const StSliderContentFour = () => {
   return (
     <div className=" bg-[url('/src/assets/HomeFour/home4.jpg')] bg-cover bg-no-repeat bg-center relative h-[850px] overflow-hidden flex items-center">
@@ -33,13 +34,9 @@ const StSliderContentFour = () => {
             </div>
           </div>
           <div className="">
-            <img
-              src="/src/assets/HomeFour/circle.png"
-              className="relative"
-              alt="Circle"
-            />
+            <img src={circle} className="relative" alt="Circle" />
             <div className="absolute lg:top-[35%] xl:right-[120px]  lg:right-0 top-[55%]">
-              <img src="/src/assets/HomeFour/air.png" alt="Banner" />
+              <img src={banner} alt="Banner" />
             </div>
           </div>
         </div>
