@@ -10,6 +10,8 @@ import {
   faXTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 
+import logo from "/src/assets/main-logo.png";
+
 const Drawer = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [home, setHome] = useState(true);
@@ -34,7 +36,7 @@ const Drawer = () => {
 
       {/* Drawer */}
       <div
-        className={`fixed top-0 right-0 h-screen w-[500px] bg-secondary border-l border-solid border-primary text-white transform z-[10000] overflow-y-scroll overflow-x-hidden ${
+        className={`fixed top-0 right-0 h-screen lg:w-[500px] md:w-[420px] w-[300px] bg-secondary border-l border-solid border-primary text-white transform z-[10000] overflow-y-scroll overflow-x-hidden ${
           isOpen ? "translate-x-0" : "translate-x-full"
         } transition-transform duration-500 ease-in-out`}
         onClick={(e) => e.stopPropagation()}
@@ -42,11 +44,7 @@ const Drawer = () => {
         <div className="h-full flex flex-col">
           <div className="px-[35px] pt-10 pb-2 flex-shrink-0">
             <div className="flex justify-between items-center border-b border-solid border-[rgba(255,255,255,0.079)] pb-5 mb-[35px]">
-              <img
-                src="/src/assets/main-logo.png"
-                className="w-[160px]"
-                alt="Logo"
-              />
+              <img src={logo} className="w-[160px]" alt="Logo" />
               <button className="text-3xl" onClick={toggleDrawer}>
                 <FontAwesomeIcon icon={faXmark} />
               </button>
