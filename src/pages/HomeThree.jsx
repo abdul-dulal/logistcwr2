@@ -325,7 +325,7 @@ const HomeThree = () => {
               Transportation All Over The World
             </h3>
           </div>
-          <div className="flex flex-wrap justify-center">
+          <div className="flex xl:flex-nowrap flex-wrap justify-center">
             <Safe img={care} title="Logistics System Complete" />
             <Safe img={box} title="Shipping All Over the world" />
             <Safe img={house} title="Online Product Tracking" />
