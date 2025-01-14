@@ -1,8 +1,6 @@
 import { useRef, useState } from "react";
 import { Link } from "react-router-dom";
-
 import "animate.css";
-
 import { Navigation, Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -25,6 +23,7 @@ import serviceImg3 from "/src/assets/HomeOne/1-s-3.jpg";
 import serviceIconOne from "/src/assets/HomeOne/dallar-icon.png";
 import serviceIconTwo from "/src/assets/HomeOne/ship-icon.png";
 import serviceIconthree from "/src/assets/HomeOne/home-icon.png";
+import appionmentImg from "/src/assets/HomeOne/appionment.jpg";
 import t1 from "/src/assets/HomeOne/1-1.png";
 import t2 from "/src/assets/HomeOne/1-2.png";
 import t3 from "/src/assets/HomeOne/1-3.png";
@@ -335,7 +334,7 @@ const HomeOne = () => {
             <div className="">
               <div className="absolute top-[33px]  -z-[1] right-0 w-[50%] h-full overflow-hidden">
                 <img
-                  src="/src/assets/HomeOne/appionment.jpg"
+                  src={appionmentImg}
                   className="bg-cover bg-no-repeat  h-full"
                   alt="Appionment"
                 />

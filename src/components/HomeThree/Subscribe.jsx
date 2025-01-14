@@ -31,7 +31,7 @@ const Subscribe = () => {
             </div>
             <div>
               <img
-                src={subscribe}
+                src="/src/assets/HomeTwo/join.png"
                 className="w-full xl:ml-[15px]"
                 alt="Call To Action"
               />
